@@ -21,7 +21,7 @@ a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited {
     color: #888a85;
 }
 
-.hnmore a:link, a:visited, .comhead a:link, .subtext a:visited, .subtext, .subtext a:link, .subtext a:visited {
+.hnmore a:link, a:visited, .pagetop a:visited .comhead a:link, .subtext a:visited, .subtext, .subtext a:link, .subtext a:visited {
     color: #d3d7cf;
 }
 
