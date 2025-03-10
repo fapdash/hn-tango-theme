@@ -26,10 +26,10 @@ a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited {
 }
 
 .hnmore a:link, a:visited, .pagetop a:visited, .comhead a:link, .subtext a:visited, .subtext, .subtext a:link, .subtext a:visited {
-  color: #d3d7cf;
+    color: #d3d7cf;
 }
 
-#hnmain tbody > tr:nth-child(1) {
+#hnmain > tbody > tr:nth-child(1) {
     height: 2rem;
 }
 
@@ -45,11 +45,7 @@ a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited {
 }
 
 #pagespace {
-    height: 0 !important;
-}
-
-.submission td {
-    vertical-align: middle;
+    height: .5rem !important;
 }
 
 #hnmain > tbody > tr:not(:first-child):not(:has(.yclinks)) > td:has([class]) {
@@ -84,6 +80,9 @@ a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited {
 .submission > td+td {
     padding-left: .6rem;
 }
+.fatitem .submission > td+td {
+    padding-left: 0;
+}
 .subtext {
     padding-top: .3rem;
     padding-left: .6rem;
@@ -93,7 +92,7 @@ a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited {
 }
 
 .hnuser > font {
-  color: #8ae234 !important;
+    color: #8ae234 !important;
 }
 
 }
