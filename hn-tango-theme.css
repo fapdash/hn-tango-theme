@@ -13,7 +13,7 @@
   .comhead { font-size:  .8rem; }
   .comment { font-size:  1rem; }
 
-  a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited, .pagetop a:visited {
+  a:link , .title a, .c00, .c00 a:link, .c5a, .c5a a:link, .c5a a:visited, .pagetop a:visited, td {
     color: #eeeeec;
   }
   /* downvoted / greyed out */
